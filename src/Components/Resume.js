@@ -20,30 +20,28 @@ const Resume = (props) => {
 
     return (
         <section id="resume">
-            
-            <div className="row education">
-                <div className="three columns">
-                    <img className="profile-pic"  src={profilePicture} alt="Tim Baker Profile Pic" />
+            <div className="row">
+                <div className="five columns align-center">
+                    <img className="profile-pic" src={profilePicture} alt="Picture"/>
                     <h1><span>Education</span></h1>
-                </div>
-                <div className="nine columns main-col">
                     <div className="row item">
                         <div className="twelve columns">
                             {education}
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="row work">
-                <div className="three columns header-col">
+                <div className="five columns align-center">
+                    <img className="profile-pic"  src={profilePicture} alt="Tim Baker Profile Pic" />
                     <h1><span>Work</span></h1>
-                </div>
-                <div className="nine columns main-col">
-                    {work}
+                    <div className="row item">
+                        <div className="twelve columns">
+                            {work}
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     );
-}
+};
 
 export default Resume;
