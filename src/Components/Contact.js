@@ -9,7 +9,6 @@ const Contact = (props) => {
     var state = props.data.address.state;
     var zip = props.data.address.zip;
     var phone = props.data.phone;
-    var email = props.data.email;
     var message = props.data.contactmessage;
   }
 

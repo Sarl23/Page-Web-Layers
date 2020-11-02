@@ -26,16 +26,7 @@ const Header = (props) => {
       image: 'https://i.imgur.com/DvmN8Hx.jpg',
     }
   ];
-
-  if (props.data) {
-    var name = props.data.name;
-    var occupation = props.data.occupation;
-    var description = props.data.description;
-    var city = props.data.address.city;
-    var networks = props.data.social.map(function (network) {
-      return <li key={network.name}><a href={network.url}><i className={network.className}/></a></li>
-    })
-  }
+  
   return (
     <section id="home">
       <div>
