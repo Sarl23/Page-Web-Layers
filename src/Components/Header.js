@@ -37,10 +37,10 @@ const Header = (props) => {
 
   if (props.data) {
     var name = props.data.name;
-    var occupation = props.data.occupation;
-    var description = props.data.description;
-    var city = props.data.address.city;
-    var networks = props.data.social.map(function (network) {
+    var occupation= props.data.occupation;
+    var description= props.data.description;
+    var city= props.data.address.city;
+    var networks= props.data.social.map(function(network){
       return <li key={network.name}><a href={network.url}><i className={network.className}/></a></li>
     })
   }
@@ -74,6 +74,6 @@ const Header = (props) => {
       </Slider>
     </div>
   );
-}
+};
 
 export default Header;
