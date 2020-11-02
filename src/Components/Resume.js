@@ -32,10 +32,10 @@ const Resume = (props) => {
                 </div>
                 <div className="five columns align-center">
                     <img className="profile-pic"  src={profilePicture} alt="Tim Baker Profile Pic" />
-                    <h1><span>Work</span></h1>
+                    <h1><span>Education</span></h1>
                     <div className="row item">
                         <div className="twelve columns">
-                            {work}
+                            {education}
                         </div>
                     </div>
                 </div>
