@@ -46,7 +46,8 @@ const Header = (props) => {
     })
   }
   return (
-    <div>
+    <section id="home">
+      <div>
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
           <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
@@ -59,22 +60,23 @@ const Header = (props) => {
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
           </ul>
         </nav>
-      <Slider autoplay={3000}>
-        {content.map((item, index) => (
-          <div
-            key={index}
-            className="slider-content"
-            style={{ background: `url('${item.image}') no-repeat center center` }}
-          >
-            <div className="inner">
-              <h1>{item.title}</h1>
-              <p>{item.description}</p>
-              <button>{item.button}</button>
-            </div>
-          </div>
-        ))}
-      </Slider>
-    </div>
+        <Slider autoplay={3000}>
+          {content.map((item, index) => (
+              <div
+                  key={index}
+                  className="slider-content"
+                  style={{ background: `url('${item.image}') no-repeat center center` }}
+              >
+                <div className="inner">
+                  <h1>{item.title}</h1>
+                  <p>{item.description}</p>
+                  <button>{item.button}</button>
+                </div>
+              </div>
+          ))}
+        </Slider>
+      </div>
+    </section>
   );
 };
 
