@@ -26,7 +26,7 @@ const Header = (props) => {
       image: 'https://i.imgur.com/DvmN8Hx.jpg',
     }
   ];
-  
+
   return (
     <section id="home">
       <div>
