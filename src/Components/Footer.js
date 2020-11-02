@@ -15,12 +15,10 @@ const Footer = (props) =>  {
                     <ul className="social-links">
                         {networks}
                     </ul>
-
                     <ul className="copyright">
-                        <li>&copy; Copyright 2017 Tim Baker</li>
-                        <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+                        <li>&copy; Copyright 2020 by</li> <a target={'_blank'} title="Styleshout" href="https://twitter.com/jimmyale3201">@jimmyale3201</a>&nbsp;
+                        <a target={'_blank'} title="Styleshout" href="https://twitter.com/Sergio_Rojas05">@Sergio_Rojas05</a>
                     </ul>
-
                 </div>
                 <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>
             </div>
