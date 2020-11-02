@@ -1,9 +1,9 @@
-import React, from 'react';
+import React from 'react';
 
 const Footer = (props) =>  {
 
-    if(this.props.data){
-        var networks = this.props.data.social.map(function(network){
+    if(props.data){
+        var networks = props.data.social.map(function(network){
             return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
         })
     }
