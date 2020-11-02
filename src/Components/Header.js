@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Header =(props)=>{
 
   if(props.data){
@@ -48,6 +47,6 @@ const Header =(props)=>{
 
     </header>
   );
-}
+};
 
 export default Header;
