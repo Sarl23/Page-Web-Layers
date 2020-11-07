@@ -1,18 +1,16 @@
 {
   "main": {
-    "name":"Tim Baker",
+    "name":"S&L\nSAENZ LEON\nABOGADOS ESPECIALIZADOS\n",
     "occupation":"(Your Occupation Here)",
     "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"SAENZ LEÓN ES UNA FIRMA DE ABOGADOS ESPECIALIZADOS EN LITIGIO, ASESORÍA Y CONSULTORÍA EN RESPONSABILIDAD MÉDICO – SANITARIA, DERECHO PENITENCIARIO, DERECHO DISCIPLINARIO, DERECHO CIVIL Y DERECHO LABORAL.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "saenzleonabogados@gmail.com",
+    "phone": "3133582678 – 3102401986",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "city":"Tunja",
+      "state":"Boyacá"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
