@@ -148,11 +148,11 @@
   "testimonials":{
     "testimonials":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "text":"\nNuestra firma cuenta con profesionales altamente calificados, quienes se vienen desempeñando como docentes universitarios, litigantes y vienen de ejercer funciones relacionadas en el sector público.\n",
         "user":"Kareem Abdul Jabbar"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "text":"Los servicios son prestados con los más altos estándares de calidad, donde nuestros clientes conocerán de manera permanente las estrategias de defensa, el estado de sus procesos y la evolución de los mismos.",
         "user":"Steve Wozniak... impersonator"
       }
     ]
