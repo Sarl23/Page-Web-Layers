@@ -38,7 +38,7 @@ const Header = (props) => {
             <li><a className="smoothscroll" href="#about">Acerca</a></li>
             <li><a className="smoothscroll" href="#resume">Equipo</a></li>
             <li><a className="smoothscroll" href="#portfolio">Libros</a></li>
-            <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+            <li><a className="smoothscroll" href="#testimonials">Comentarios</a></li>
             <li><a className="smoothscroll" href="#contact">Contacto</a></li>
           </ul>
         </nav>
