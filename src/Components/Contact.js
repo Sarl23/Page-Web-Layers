@@ -27,33 +27,33 @@ const Contact = (props) => {
           <form action="" method="post" id="contactForm" name="contactForm">
             <fieldset>
               <div>
-                <label htmlFor="contactName">Name <span className="required">*</span></label>
+                <label htmlFor="contactName">Nombre <span className="required">*</span></label>
                 <input type="text" defaultValue="" size="35" id="contactName" name="contactName"
                        onChange={this.handleChange}/>
               </div>
               <div>
-                <label htmlFor="contactEmail">Email <span className="required">*</span></label>
+                <label htmlFor="contactEmail">Correo electrónico <span className="required">*</span></label>
                 <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail"
                        onChange={this.handleChange}/>
               </div>
               <div>
-                <label htmlFor="contactSubject">Subject</label>
+                <label htmlFor="contactSubject">Asunto</label>
                 <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject"
                        onChange={this.handleChange}/>
               </div>
               <div>
-                <label htmlFor="contactMessage">Message <span className="required">*</span></label>
+                <label htmlFor="contactMessage">Mensaje <span className="required">*</span></label>
                 <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
               </div>
               <div>
-                <button className="submit">Submit</button>
+                <button className="submit">Enviar</button>
               </div>
             </fieldset>
           </form>
         </div>
         <aside className="four columns footer-widgets">
           <div className="widget widget_contact">
-            <h4>Address and Phone</h4>
+            <h4>Dirección y teléfono</h4>
             <p className="address">
               {name}<br/>
               {street} <br/>
@@ -62,7 +62,7 @@ const Contact = (props) => {
             </p>
           </div>
           <div className="widget widget_tweets">
-            <h4 className="widget-title">Latest Tweets</h4>
+            <h4 className="widget-title">Ubicación</h4>
             <div className="google-map-code">
               <div className="google-map-code">
                 <iframe
