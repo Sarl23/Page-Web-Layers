@@ -3,7 +3,8 @@ import React from 'react';
 const Resume = (props) => {
 
     if (props.data) {
-        var profilePicture = "images/" + props.picture.image;
+        var manPicture = "images/" + props.picture.manPicture;
+        var womanPicture = "images/" + props.picture.womanPicture;
         var educationDeibyData = props.data.educationDeiby.map(function (education) {
             return <div key={education.school}><h3>{education.school}</h3>
                 <p className="info">{education.degree}
@@ -22,7 +23,7 @@ const Resume = (props) => {
         <section id="resume">
             <div className="row">
                 <div className="five columns align-center">
-                    <img className="profile-pic" src={profilePicture} alt="User"/>
+                    <img className="profile-pic" src={manPicture} alt="User"/>
                     <h1><span>DEIBY SAENZ ROGRIGUEZ</span></h1>
                     <br />
                     <div className="row item">
@@ -32,7 +33,7 @@ const Resume = (props) => {
                     </div>
                 </div>
                 <div className="five columns align-center">
-                    <img className="profile-pic"  src={profilePicture} alt="Tim Baker Profile Pic" />
+                    <img className="profile-pic"  src={womanPicture} alt="Tim Baker Profile Pic" />
                     <h1><span>JEIMMY XIOMARA MORALES LEON</span></h1>
                     <br />
                     <div className="row item">
