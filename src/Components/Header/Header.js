@@ -11,19 +11,19 @@ const Header = (props) => {
       title: 'CUENTE',
       description:
         'con una firma seria',
-      image: 'https://raw.githubusercontent.com/Sarl23/Page-Web-Layers/imprv/information/public/images/carousel/carousel_1.jpg?token=AFZOMBHFFPNBOYSA7PHLWJS7U4DVG',
+      image: 'https://raw.githubusercontent.com/Sarl23/csv-and-files/master/pageWebLawyers/carousel/carousel_1.jpg',
     },
     {
       title: '¡SOMOS',
       description:
         'su mejor opción!',
-      image: 'https://raw.githubusercontent.com/Sarl23/Page-Web-Layers/imprv/information/public/images/carousel/carousel_2.jpg?token=AFZOMBAHKCGIJU4QBWIZEB27U355I',
+      image: 'https://raw.githubusercontent.com/Sarl23/csv-and-files/master/pageWebLawyers/carousel/carousel_2.jpg',
     },
     {
       title: 'RESPONSABILIDAD',
       description:
         'corporativa',
-      image: 'https://raw.githubusercontent.com/Sarl23/Page-Web-Layers/imprv/information/public/images/carousel/carousel_3.jpg?token=AFZOMBDTO5SE7UXX7KTLEPK7U3566',
+      image: 'https://raw.githubusercontent.com/Sarl23/csv-and-files/master/pageWebLawyers/carousel/carousel_3.jpg',
     }
   ];
 
