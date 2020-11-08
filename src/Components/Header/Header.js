@@ -8,22 +8,19 @@ const Header = (props) => {
 
   const content = [
     {
-      title: 'Vulputate Mollis Ultricies Fermentum Parturient',
-      description:
-        'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
-      image: 'https://i.imgur.com/ZXBtVw7.jpg',
+      title: 'Cuente con una firma seria',
+      description: 'Capaz de resolver cualquier consulta',
+      image: 'https://raw.githubusercontent.com/Sarl23/csv-and-files/master/pageWebLawyers/carousel/carousel_1.jpg',
     },
     {
-      title: 'Tortor Dapibus Commodo Aenean Quam',
-      description:
-        'Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.',
-      image: 'https://i.imgur.com/DCdBXcq.jpg',
+      title: '¡Somos su mejor opción!',
+      description: 'Dentro de un amplio catálogo de servicios jurídicos que cuenta con la facilidad de acercamiento al cliente',
+      image: 'https://raw.githubusercontent.com/Sarl23/csv-and-files/master/pageWebLawyers/carousel/carousel_2.jpg',
     },
     {
-      title: 'Phasellus volutpat metus',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.',
-      image: 'https://i.imgur.com/DvmN8Hx.jpg',
+      title: 'Responsabilidad corporativa',
+      description: 'Cada uno de nuestros casos se asume con el mejor profesionalismo que hemos adquirido en el transcurso de nuestra experiencia',
+      image: 'https://raw.githubusercontent.com/Sarl23/csv-and-files/master/pageWebLawyers/carousel/carousel_3.jpg',
     }
   ];
 
@@ -34,12 +31,12 @@ const Header = (props) => {
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
           <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
           <ul id="nav" className="nav">
-            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#about">About</a></li>
-            <li><a className="smoothscroll" href="#resume">Team</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+            <li className="current"><a className="smoothscroll" href="#home">Inicio</a></li>
+            <li><a className="smoothscroll" href="#about">Acerca</a></li>
+            <li><a className="smoothscroll" href="#resume">Equipo</a></li>
+            <li><a className="smoothscroll" href="#portfolio">Libros</a></li>
+            <li><a className="smoothscroll" href="#testimonials">Comentarios</a></li>
+            <li><a className="smoothscroll" href="#contact">Contacto</a></li>
           </ul>
         </nav>
         <Slider autoplay={3000}>

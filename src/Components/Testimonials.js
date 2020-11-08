@@ -7,7 +7,6 @@ const Testimonials = (props) => {
       return <li key={testimonials.user}>
         <blockquote>
           <p>{testimonials.text}</p>
-          <cite>{testimonials.user}</cite>
         </blockquote>
       </li>
     })
@@ -19,7 +18,7 @@ const Testimonials = (props) => {
         <div className="row">
 
           <div className="two columns header-col">
-            <h1><span>Client Testimonials</span></h1>
+            <h1><span>Comentarios</span></h1>
           </div>
 
           <div className="ten columns flex-container">
