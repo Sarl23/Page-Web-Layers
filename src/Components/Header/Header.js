@@ -8,21 +8,18 @@ const Header = (props) => {
 
   const content = [
     {
-      title: 'CUENTE',
-      description:
-        'con una firma seria',
+      title: 'Cuente con una firma seria',
+      description: 'Capaz de resolver cualquier consulta',
       image: 'https://raw.githubusercontent.com/Sarl23/csv-and-files/master/pageWebLawyers/carousel/carousel_1.jpg',
     },
     {
-      title: '¡SOMOS',
-      description:
-        'su mejor opción!',
+      title: '¡Somos su mejor opción!',
+      description: 'Dentro de un amplio catálogo de servicios jurídicos que cuenta con la facilidad de acercamiento al cliente',
       image: 'https://raw.githubusercontent.com/Sarl23/csv-and-files/master/pageWebLawyers/carousel/carousel_2.jpg',
     },
     {
-      title: 'RESPONSABILIDAD',
-      description:
-        'corporativa',
+      title: 'Responsabilidad corporativa',
+      description: 'Cada uno de nuestros casos se asume con el mejor profesionalismo que hemos adquirido en el transcurso de nuestra experiencia',
       image: 'https://raw.githubusercontent.com/Sarl23/csv-and-files/master/pageWebLawyers/carousel/carousel_3.jpg',
     }
   ];
