@@ -8,21 +8,21 @@ const Header = (props) => {
 
   const content = [
     {
-      title: 'Vulputate Mollis Ultricies Fermentum Parturient',
+      title: 'CUENTE',
       description:
-        'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
+        'con una firma seria',
       image: 'https://raw.githubusercontent.com/Sarl23/Page-Web-Layers/imprv/information/public/images/carousel/carousel_1.jpg?token=AFZOMBHFFPNBOYSA7PHLWJS7U4DVG',
     },
     {
-      title: 'Tortor Dapibus Commodo Aenean Quam',
+      title: '¡SOMOS',
       description:
-        'Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.',
+        'su mejor opción!',
       image: 'https://raw.githubusercontent.com/Sarl23/Page-Web-Layers/imprv/information/public/images/carousel/carousel_2.jpg?token=AFZOMBAHKCGIJU4QBWIZEB27U355I',
     },
     {
-      title: 'Phasellus volutpat metus',
+      title: 'RESPONSABILIDAD',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.',
+        'corporativa',
       image: 'https://raw.githubusercontent.com/Sarl23/Page-Web-Layers/imprv/information/public/images/carousel/carousel_3.jpg?token=AFZOMBDTO5SE7UXX7KTLEPK7U3566',
     }
   ];
