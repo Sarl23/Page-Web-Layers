@@ -1007,4 +1007,9 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
+
+.about-lawyer {
+    color: #191919;
+}
+
 #go-top a:hover { background-color: #f0bc00; }
