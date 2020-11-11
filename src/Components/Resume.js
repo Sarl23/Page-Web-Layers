@@ -32,12 +32,12 @@ const Resume = (props) => {
                             <div className="text-left">
                                 <lu>
                                     <li>Universidad Santo Tomas</li>
-                                    <li>Magister en Derecho Humanos</li>
+                                    <li>Magister en Derechos Humanos</li>
                                     <li>Doctor en Derecho Público</li>
                                     <li>Doctor en Ciencias Jurídicas</li>
                                     <li>Doctor en Ciencias de la Educación</li>
                                     <li>Doctor en estudios legales con énfasis en Derecho Constitucional</li>
-                                    <li>Post Doctor en Derecho Humanos</li>
+                                    <li>Post Doctor en Derechos Humanos</li>
                                 </lu>
                                 <p>
                                     Con 20 años de experiencia como servidor público, ejerciendo cargos propios de Dirección del programa de Doctorado en Derecho Público de la Universidad Santo Tomas,
