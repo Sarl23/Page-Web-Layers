@@ -7,15 +7,9 @@ const Resume = (props) => {
         var womanPicture = "images/" + props.picture.womanPicture;
         var educationDeibyData = props.data.educationDeiby.map(function (education) {
             return <div key={education.school}><h3>{education.school}</h3></div>
-                {/*<p className="info">{education.degree}
-                    <br/><em className="date">{education.graduated}</em></p>
-                <p>{education.description}</p></div>*/}
         });
         var educationXiomaraData = props.data.educationXiomara.map(function (education) {
             return <div key={education.school}><h3>{education.school}</h3></div>
-                    {/*<p className="info">{education.degree}
-                    <br/><em className="date">{education.graduated}</em></p>
-                <p>{education.description}</p></div>*/}
         });
     }
 
