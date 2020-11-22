@@ -24,26 +24,26 @@ const Contact = (props) => {
       </div>
       <div className="row">
         <div className="eight columns">
-          <form action="" method="post" id="contactForm" name="contactForm">
+          <form action="" method="post" name="contact" data-netlify="true">
             <fieldset>
               <div>
-                <label htmlFor="contactName">Nombre <span className="required">*</span></label>
-                <input type="text" defaultValue="" size="35" id="contactName" name="contactName"
+                <label htmlFor="name">Nombre <span className="required">*</span></label>
+                <input type="text" defaultValue="" size="35" name="name"
                        onChange={this.handleChange}/>
               </div>
               <div>
-                <label htmlFor="contactEmail">Correo electrónico <span className="required">*</span></label>
-                <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail"
+                <label htmlFor="email">Correo electrónico <span className="required">*</span></label>
+                <input type="text" defaultValue="" size="35" name="email"
                        onChange={this.handleChange}/>
               </div>
               <div>
-                <label htmlFor="contactSubject">Asunto</label>
-                <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject"
+                <label htmlFor="subject">Asunto</label>
+                <input type="text" defaultValue="" size="35" name="subject"
                        onChange={this.handleChange}/>
               </div>
               <div>
-                <label htmlFor="contactMessage">Mensaje <span className="required">*</span></label>
-                <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                <label htmlFor="message">Mensaje <span className="required">*</span></label>
+                <textarea cols="50" rows="15" name="message"></textarea>
               </div>
               <div>
                 <button className="submit">Enviar</button>
