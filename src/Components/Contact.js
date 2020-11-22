@@ -24,7 +24,7 @@ const Contact = (props) => {
       </div>
       <div className="row">
         <div className="eight columns">
-        <form name="contact" netlify netlify-honeypot="bot-field">
+        <form name="contact" netlify>
             <fieldset>
               <div>
                 <label htmlFor="name">Nombre <span className="required">*</span></label>
