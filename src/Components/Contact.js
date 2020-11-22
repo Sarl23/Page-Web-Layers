@@ -24,29 +24,22 @@ const Contact = (props) => {
       </div>
       <div className="row">
         <div className="eight columns">
-          <form action="" method="post" name="contact" data-netlify="true">
+          <form method="POST" name="contact" data-netlify="true">
             <fieldset>
               <div>
                 <label htmlFor="name">Nombre <span className="required">*</span></label>
-                <input type="text" defaultValue="" size="35" name="name"
-                       onChange={this.handleChange}/>
+                <input type="text" defaultValue="" size="35" name="name"/>
               </div>
               <div>
                 <label htmlFor="email">Correo electrónico <span className="required">*</span></label>
-                <input type="text" defaultValue="" size="35" name="email"
-                       onChange={this.handleChange}/>
-              </div>
-              <div>
-                <label htmlFor="subject">Asunto</label>
-                <input type="text" defaultValue="" size="35" name="subject"
-                       onChange={this.handleChange}/>
+                <input type="text" defaultValue="" size="35" name="email"/>
               </div>
               <div>
                 <label htmlFor="message">Mensaje <span className="required">*</span></label>
                 <textarea cols="50" rows="15" name="message"></textarea>
               </div>
               <div>
-                <button className="submit">Enviar</button>
+                <button type="submit" className="submit">Enviar</button>
               </div>
             </fieldset>
           </form>
