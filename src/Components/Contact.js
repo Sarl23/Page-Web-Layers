@@ -25,15 +25,13 @@ const Contact = (props) => {
       <div className="row">
         <div className="eight columns">
           <form name="contact" netlify>
-            <p>
-              <label>Name <input type="text" name="name" /></label>
-            </p>
-            <p>
-              <label>Email <input type="email" name="email" /></label>
-            </p>
-            <p>
-              <button type="submit">Send</button>
-            </p>
+            <label>Name <input type="text" name="name" /></label>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <label>Email <input type="email" name="email" /></label>
+            <button type="submit">Send</button>
           </form>
         </div>
         <aside className="four columns footer-widgets">
