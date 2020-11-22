@@ -24,7 +24,7 @@ const Resume = (props) => {
                         <div className="twelve columns">
                             {educationDeibyData}
                             <div className="text-left">
-                                <lu>
+                                <ul>
                                     <li>Universidad Santo Tomas</li>
                                     <li>Magister en Derechos Humanos</li>
                                     <li>Doctor en Derecho Público</li>
@@ -32,7 +32,7 @@ const Resume = (props) => {
                                     <li>Doctor en Ciencias de la Educación</li>
                                     <li>Doctor en estudios legales con énfasis en Derecho Constitucional</li>
                                     <li>Post Doctor en Derechos Humanos</li>
-                                </lu>
+                                </ul>
                                 <p>
                                     Con 20 años de experiencia como servidor público, ejerciendo cargos propios de Dirección del programa de Doctorado en Derecho Público de la Universidad Santo Tomas,
                                     Editor de la revista Científica Principia Iuris de la Universidad Santo Tomas,
@@ -42,11 +42,11 @@ const Resume = (props) => {
                                     Docente asociado en Derecho Penal, Universidad Santo Tomas
                                     Docente asociado en Derecho Penal, Universidad Juan de Castellanos
                                 </p>
-                                <lu>
+                                <ul>
                                     <li>Investigador</li>
                                     <li>Escritor</li>
                                     <li>Conferencista</li>
-                                </lu>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -59,11 +59,11 @@ const Resume = (props) => {
                         <div className="twelve columns">
                             {educationXiomaraData}
                             <div className="text-left">
-                                <lu>
+                                <ul>
                                     <li>Universidad Santo Tomas</li>
                                     <li>Especialista en Derecho Medico – Sanitario Universidad del Rosario</li>
                                     <li>Candidata a Magister Universidad del Rosario</li>
-                                </lu>
+                                </ul>
                                 <p>
                                     Especialista en Responsabilidad Medico – Sanitaria, con gran experiencia en el
                                     litigio, ejerciendo cargos en el sector público, asesora jurídica, cuenta con óptima
