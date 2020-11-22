@@ -24,22 +24,25 @@ const Contact = (props) => {
       </div>
       <div className="row">
         <div className="eight columns">
-          <form name="contact" method="POST" data-netlify="true">
-            <label>Your Name: <input type="text" name="name" /></label>
-            <br/>
-            <br/>
-            <br/>
-            <label>Your Email: <input type="email" name="email" /></label>
-            <br/>
-            <br/>
-            <br/>
-            <label>Message: <textarea name="message"/></label>
-            <br/>
-            <br/>
-            <br/>
-            <button type="submit">Send</button>
+          <form name="contact" netlify>
+            <fieldset>
+              <div>
+                <label htmlFor="name">Nombre <span className="required">*</span></label>
+                <input type="text" defaultValue="" size="35" name="name"/>
+              </div>
+              <div>
+                <label htmlFor="email">Correo electrónico <span className="required">*</span></label>
+                <input type="text" defaultValue="" size="35" name="email"/>
+              </div>
+              <div>
+                <label htmlFor="message">Mensaje <span className="required">*</span></label>
+                <textarea cols="50" rows="15" name="message"></textarea>
+              </div>
+              <div>
+                <button type="submit" className="submit">Enviar</button>
+              </div>
+            </fieldset>
           </form>
-
         </div>
         <aside className="four columns footer-widgets">
           <div className="widget widget_contact">
