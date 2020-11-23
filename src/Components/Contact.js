@@ -24,7 +24,7 @@ const Contact = (props) => {
       </div>
       <div className="row">
         <div className="eight columns">
-          <form name="contact" netlify>
+          <form name="contact" method="POST" data-netlify="true">
             <fieldset>
               <div>
                 <label htmlFor="name">Nombre <span className="required">*</span></label>
@@ -36,7 +36,7 @@ const Contact = (props) => {
               </div>
               <div>
                 <label htmlFor="message">Mensaje <span className="required">*</span></label>
-                <textarea cols="50" rows="15" name="message"></textarea>
+                <textarea cols="50" rows="15" name="message"/>
               </div>
               <div>
                 <button type="submit" className="submit">Enviar</button>
