@@ -16,7 +16,7 @@ const Resume = (props) => {
     return (
         <section id="resume">
             <div className="row">
-                <div className="five columns align-center">
+                <div className="five columns align-center about-font">
                     <img className="profile-pic" src={manPicture} alt="User"/>
                     <h1><span>DEIBY SÁENZ RODRÍGUEZ</span></h1>
                     <br/>
@@ -42,7 +42,7 @@ const Resume = (props) => {
                                     Docente asociado en Derecho Penal, Universidad Santo Tomas
                                     Docente asociado en Derecho Penal, Universidad Juan de Castellanos
                                 </p>
-                                <ul>
+                                <ul className="align-center">
                                     <li>Investigador</li>
                                     <li>Escritor</li>
                                     <li>Conferencista</li>

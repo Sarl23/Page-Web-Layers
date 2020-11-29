@@ -1012,4 +1012,16 @@ footer .social-links li:first-child { margin-left: 0; }
     color: #191919;
 }
 
+.navbar-logo {
+    height: 30px;
+    margin-top: 20px;
+    list-style: none;
+    position: fixed;
+    display: inline-block;
+}
+
+.about-font {
+    font-family: "sans-serif";
+}
+
 #go-top a:hover { background-color: #f0bc00; }
