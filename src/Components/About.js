@@ -13,7 +13,8 @@ const About=(props)=> {
       <section id="about">
       <div className="row">
          <div className="three columns">
-            <img className="profile-pic"  src={teamPicture} alt="Tim Baker Profile Pic" />
+             <img className="profile-pic" src="images/circle_logo.png" alt="Logo"/>
+             <img className="profile-pic"  src={teamPicture} alt="Tim Baker Profile Pic" />
          </div>
          <div className="nine columns main-col">
              <h2>Acerca de nosotros</h2>
