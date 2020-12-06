@@ -24,22 +24,22 @@ const Contact = (props) => {
       </div>
       <div className="row">
         <div className="eight columns">
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" id="contact-form" method="POST" action="sendMessage.php">
             <fieldset>
               <div>
                 <label htmlFor="name">Nombre <span className="required">*</span></label>
-                <input type="text" defaultValue="" size="35" name="name"/>
+                <input type="text" defaultValue="" size="35" name="name" id="name"/>
               </div>
               <div>
                 <label htmlFor="email">Correo electrónico <span className="required">*</span></label>
-                <input type="text" defaultValue="" size="35" name="email"/>
+                <input type="text" defaultValue="" size="35" name="email" id="email"/>
               </div>
               <div>
                 <label htmlFor="message">Mensaje <span className="required">*</span></label>
-                <textarea cols="50" rows="15" name="message"/>
+                <textarea cols="50" rows="15" name="message" id="message"/>
               </div>
               <div>
-                <button type="submit" className="submit">Enviar</button>
+                <button type="submit" id="sudmit" name="action" className="submit">Enviar</button>
               </div>
             </fieldset>
           </form>
