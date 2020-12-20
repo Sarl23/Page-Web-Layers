@@ -39,7 +39,7 @@ const Contact = (props) => {
                 <textarea cols="50" rows="15" name="message" id="message"/>
               </div>
               <div>
-                <button type="submit" id="sudmit" name="action" className="submit">Enviar</button>
+                <button type="submit" >Enviar</button>
               </div>
             </fieldset>
           </form>
