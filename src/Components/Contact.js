@@ -24,7 +24,7 @@ const Contact = (props) => {
       </div>
       <div className="row">
         <div className="eight columns">
-          <form name="contact" id="contact-form" method="POST" action="sendMessage.php">
+          <form method="post" action="sendMessage.php">
             <fieldset>
               <div>
                 <label htmlFor="name">Nombre <span className="required">*</span></label>
