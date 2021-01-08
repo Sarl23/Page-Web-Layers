@@ -24,7 +24,7 @@ const Contact = (props) => {
       </div>
       <div className="row">
         <div className="eight columns">
-          <form method="post" action="sendMessage.php">
+          <form method="post"  data-netlify="true">
             <fieldset>
               <div>
                 <label htmlFor="name">Nombre <span className="required">*</span></label>
