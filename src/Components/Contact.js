@@ -28,7 +28,7 @@ const Contact = (props) => {
             <fieldset>
               <div>
                 <label htmlFor="name">Nombre <span className="required">*</span></label>
-                <input type="text" defaultValue="" size="35" name="name" id="name"/>
+                <input type="text" defaultValue="" size="35" name="name" id="name" required={true}/>
               </div>
               <div>
                 <label htmlFor="email">Correo electrónico <span className="required">*</span></label>

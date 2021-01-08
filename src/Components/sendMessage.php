@@ -16,7 +16,8 @@ $mensaje .= "Enviado el " . date('d/m/Y', time());
 $para = 'sergioandresrojasleon@gmail.com';
 $asunto = 'Mensaje de mi sitio web';
 
-mail($para, $asunto, utf8_decode($mensaje), $header);
+if (mail($para, $asunto, utf8_decode($mensaje), $header))
+echo "<script type='text/javascript'>alert('Tu mensaje ha sido enviado');</script>";
+echo "<script type='text/javascript'>window.location.href='https://dazzling-liskov-fc08da.netlify.app/';</script>";
 
-header("Location:index.html");
 ?>
