@@ -59,30 +59,29 @@ const Contact = (props) => {
       </div>
       <div className="row">
         <div className="eight columns">
-          <form name={"contact"} method="post" data-netlify="true" netlify onSubmit={e => onSubmit(e)}>
-            <fieldset>
-              <div>
-                <label htmlFor="name">Nombre <span className="required">*</span></label>
-                <input type="text" defaultValue="" size="35" name="name" id="name" required={true}/>
-              </div>
-              <div>
-                <label htmlFor="email">Correo electrónico <span className="required">*</span></label>
-                <input type="text" defaultValue="" size="35" name="email" id="email"/>
-              </div>
-              <div>
-                <label htmlFor="message">Mensaje <span className="required">*</span></label>
-                <textarea cols="50" rows="15" name="message" id="message"/>
-              </div>
-              <p style={{ display: "none" }}>
-                <label>
-                  Don’t fill this out if you expect to hear from us!
-                  <input name="bot-field" value="" readOnly />
-                </label>
-              </p>
-              <div>
-                <button type="submit" >Enviar</button>
-              </div>
-            </fieldset>
+          <form name={"contact"} method="post" data-netlify="true" onSubmit={e => onSubmit(e)}>
+            <div>
+              <label htmlFor="name">Nombre <span className="required">*</span></label>
+              <input type="text" defaultValue="" size="35" name="name" id="name" required={true}/>
+            </div>
+            <div>
+              <label htmlFor="email">Correo electrónico <span className="required">*</span></label>
+              <input type="text" defaultValue="" size="35" name="email" id="email"/>
+            </div>
+            <div>
+              <label htmlFor="message">Mensaje <span className="required">*</span></label>
+              <textarea cols="50" rows="15" name="message" id="message"/>
+            </div>
+            <p style={{ display: "none" }}>
+              <label>
+                Don’t fill this out if you expect to hear from us!
+                <input name="bot-field" value="" readOnly />
+              </label>
+            </p>
+            <div>
+              <button type="submit" >Enviar</button>
+            </div>
+            <input type="hidden" name="form-name" value="contact" />
           </form>
         </div>
         <aside className="four columns footer-widgets">
