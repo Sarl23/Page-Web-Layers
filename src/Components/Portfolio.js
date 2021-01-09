@@ -11,8 +11,8 @@ const Portfolio = (props) => {
 
             <div className="columns portfolio-item">
               <div className="item-wrap">
-                  <img alt="Análisis explicativo del debido proceso y su influencia en el régimen disciplinario para
-                  los servidores públicos" src="images/books/debido_proceso.png"/>
+                  <img alt="Análisis Explicativo Del Debido Proceso y Su Influencia En El Régimen Disciplinario Para
+                  Los Servidores Públicos" src="images/books/debido_proceso.png"/>
                   <div className="overlay">
                     <div className="portfolio-item-meta">
                       <h5>Análisis explicativo del debido proceso y su
@@ -25,7 +25,7 @@ const Portfolio = (props) => {
 
             <div className="columns portfolio-item">
               <div className="item-wrap">
-                  <img alt="Derecho disciplinario Fuerzas militares de Colombia" src="images/books/derecho_disciplinario.png"/>
+                  <img alt="Derecho Disciplinario Fuerzas Militares de Colombia" src="images/books/derecho_disciplinario.png"/>
                   <div className="overlay">
                     <div className="portfolio-item-meta">
                       <h5>Derecho disciplinario Fuerzas militares de Colombia</h5>
@@ -37,7 +37,7 @@ const Portfolio = (props) => {
 
             <div className="columns portfolio-item">
               <div className="item-wrap">
-                  <img alt="Documentología y Grafología forence colombiana" src="images/books/documentologia.png"/>
+                  <img alt="Documentología y Grafología Forence Colombiana" src="images/books/documentologia.png"/>
                   <div className="overlay">
                     <div className="portfolio-item-meta">
                       <h5>Documentología y Grafología forence colombiana</h5>
@@ -49,8 +49,8 @@ const Portfolio = (props) => {
 
             <div className="columns portfolio-item">
               <div className="item-wrap">
-                  <img alt="El debido proceso y su materialización en el régimen disciplinario para los servidores
-                  públicos" src="images/books/el_debido_proceso.png"/>
+                  <img alt="El Debido Proceso y Su Materialización En El Régimen Disciplinario Para Los Servidores
+                  Públicos" src="images/books/el_debido_proceso.png"/>
                   <div className="overlay">
                     <div className="portfolio-item-meta">
                       <h5>El debido proceso y su materialización en el régimen disciplinario para los servidores
@@ -63,7 +63,7 @@ const Portfolio = (props) => {
 
             <div className="columns portfolio-item">
               <div className="item-wrap">
-                  <img alt="Reinserción social" src="images/books/reinsercion.png"/>
+                  <img alt="Reinserción Social" src="images/books/reinsercion.png"/>
                   <div className="overlay">
                     <div className="portfolio-item-meta">
                       <h5>Reinserción social</h5>
