@@ -124,6 +124,24 @@ const Portfolio = (props) => {
                 </a>
             </div>
 
+            <div className="columns portfolio-item">
+                <a href={"#"}
+                   target="_blank">
+                    <div className="item-wrap">
+                        <img
+                            alt="La Subcultura Popular Delictiva Una Configuración De Los Campos Semánticos De La Prisión"
+                            src="images/books/subcultura_popular.png"/>
+                        <div className="overlay">
+                            <div className="portfolio-item-meta">
+                                <h5>La Subcultura Popular Delictiva Una Configuración De Los Campos Semánticos De
+                                    La Prisión</h5>
+                                <p>Deiby Alberto Sáenz Rodríguez</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
           </div>
         </div>
       </div>
