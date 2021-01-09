@@ -12,6 +12,41 @@ const Contact = (props) => {
     var message = props.data.contactmessage;
   }
 
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formElements = [...event.currentTarget.elements];
+    const isValid =
+      formElements.filter((elem) => elem.name === "bot-field")[0].value === "";
+
+    const validFormElements = isValid ? formElements : [];
+
+    if (validFormElements.length) {
+      const filledOutElements = validFormElements
+        .filter((elem) => !!elem.value)
+        .map(
+          (element) =>
+            encodeURIComponent(element.name) +
+            "=" +
+            encodeURIComponent(element.value)
+        )
+        .join("&");
+
+      await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: filledOutElements,
+      })
+        .then(() => {
+          console.log("Successfully submitted!");
+        })
+        .catch((_) => {
+          console.error(
+            "There was an error with your submission, please email me using the address above."
+          );
+        });
+    }
+  };
+
   return (
     <section id="contact">
       <div className="row section-head">
@@ -24,24 +59,29 @@ const Contact = (props) => {
       </div>
       <div className="row">
         <div className="eight columns">
-          <form method="post"  data-netlify="true">
-            <fieldset>
-              <div>
-                <label htmlFor="name">Nombre <span className="required">*</span></label>
-                <input type="text" defaultValue="" size="35" name="name" id="name" required={true}/>
-              </div>
-              <div>
-                <label htmlFor="email">Correo electrónico <span className="required">*</span></label>
-                <input type="text" defaultValue="" size="35" name="email" id="email"/>
-              </div>
-              <div>
-                <label htmlFor="message">Mensaje <span className="required">*</span></label>
-                <textarea cols="50" rows="15" name="message" id="message"/>
-              </div>
-              <div>
-                <button type="submit" >Enviar</button>
-              </div>
-            </fieldset>
+          <form name={"contact"} method="post" data-netlify="true" onSubmit={e => onSubmit(e)}>
+            <div>
+              <label htmlFor="name">Nombre <span className="required">*</span></label>
+              <input type="text" defaultValue="" size="35" name="name" id="name" required={true}/>
+            </div>
+            <div>
+              <label htmlFor="email">Correo electrónico <span className="required">*</span></label>
+              <input type="text" defaultValue="" size="35" name="email" id="email"/>
+            </div>
+            <div>
+              <label htmlFor="message">Mensaje <span className="required">*</span></label>
+              <textarea cols="50" rows="15" name="message" id="message"/>
+            </div>
+            <p style={{ display: "none" }}>
+              <label>
+                Don’t fill this out if you expect to hear from us!
+                <input name="bot-field" value="" readOnly />
+              </label>
+            </p>
+            <div>
+              <button type="submit" >Enviar</button>
+            </div>
+            <input type="hidden" name="form-name" value="contact" />
           </form>
         </div>
         <aside className="four columns footer-widgets">
