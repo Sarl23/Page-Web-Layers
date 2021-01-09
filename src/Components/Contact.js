@@ -61,15 +61,15 @@ const Contact = (props) => {
           <form name={"contact"} method="post" data-netlify="true" onSubmit={e => onSubmit(e)}>
             <div>
               <label htmlFor="name">Nombre <span className="required">*</span></label>
-              <input type="text" defaultValue="" size="35" name="nombre" id="name" required={true}/>
+              <input type="text" defaultValue="" size="35" name="name" id="name" required={true}/>
             </div>
             <div>
               <label htmlFor="email">Correo electrónico <span className="required">*</span></label>
-              <input type="text" defaultValue="" size="35" name="email" id="email"/>
+              <input type="text" defaultValue="" size="35" name="email" id="email" required={true}/>
             </div>
             <div>
               <label htmlFor="message">Mensaje <span className="required">*</span></label>
-              <textarea cols="50" rows="15" name="mensage" id="message"/>
+              <textarea cols="50" rows="15" name="message" id="message" required={true}/>
             </div>
             <p style={{ display: "none" }}>
               <label>
