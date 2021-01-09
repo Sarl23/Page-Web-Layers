@@ -38,6 +38,7 @@ const Contact = (props) => {
       })
         .then(() => {
           console.log("Successfully submitted!");
+          formElements.reset();
         })
         .catch((_) => {
           console.error(
