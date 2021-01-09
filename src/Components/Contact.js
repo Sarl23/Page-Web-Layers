@@ -41,7 +41,9 @@ const Contact = (props) => {
           window.location.reload();
         })
         .catch((_) => {
-          alert("Hubo un error, por favor vuelve a intentarlo");
+          console.error(
+            "There was an error with your submission, please email me using the address above."
+          );
         });
     }
   };
@@ -65,11 +67,11 @@ const Contact = (props) => {
             </div>
             <div>
               <label htmlFor="email">Correo electrónico <span className="required">*</span></label>
-              <input type="text" defaultValue="" size="35" name="email" id="email" required={true}/>
+              <input type="text" defaultValue="" size="35" name="email" id="email"/>
             </div>
             <div>
               <label htmlFor="message">Mensaje <span className="required">*</span></label>
-              <textarea cols="50" rows="15" name="message" id="message" required={true}/>
+              <textarea cols="50" rows="15" name="message" id="message"/>
             </div>
             <p style={{ display: "none" }}>
               <label>
