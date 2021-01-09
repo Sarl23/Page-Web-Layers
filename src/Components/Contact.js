@@ -37,8 +37,8 @@ const Contact = (props) => {
         body: filledOutElements,
       })
         .then(() => {
-          console.log("Successfully submitted!");
-          formElements.reset();
+          alert("Successfully submitted!");
+          document.getElementById("contact").reset();
         })
         .catch((_) => {
           console.error(
