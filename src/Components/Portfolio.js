@@ -90,6 +90,23 @@ const Portfolio = (props) => {
                 </a>
             </div>
 
+            <div className="columns portfolio-item">
+                <a href={"#"}
+                   target="_blank">
+                    <div className="item-wrap">
+                        <img
+                            alt="La Política Pública Carcelaria Y Los Procesos de Reinserción Social En El Tratamiento Penitenciario En Colombia"
+                            src="images/books/politica_publica_carcelaria.png"/>
+                        <div className="overlay">
+                            <div className="portfolio-item-meta">
+                                <h5>La Política Pública Carcelaria Y Los Procesos de Reinserción Social En El Tratamiento Penitenciario En Colombia</h5>
+                                <p>Deiby Alberto Sáenz Rodríguez</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
           </div>
         </div>
       </div>
