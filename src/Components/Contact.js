@@ -38,7 +38,7 @@ const Contact = (props) => {
       })
         .then(() => {
           alert("Successfully submitted!");
-          document.getElementById("contact").reset();
+          document.getElementById("name").reset();
         })
         .catch((_) => {
           console.error(
