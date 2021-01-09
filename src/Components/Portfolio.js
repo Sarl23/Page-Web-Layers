@@ -107,6 +107,23 @@ const Portfolio = (props) => {
                 </a>
             </div>
 
+            <div className="columns portfolio-item">
+                <a href={"#"}
+                   target="_blank">
+                    <div className="item-wrap">
+                        <img
+                            alt="Resocialización Algunas Consideraciones Sobre Su Invalidez Judicial Por Ineficacia"
+                            src="images/books/resocializacion.png"/>
+                        <div className="overlay">
+                            <div className="portfolio-item-meta">
+                                <h5>Resocialización Algunas Consideraciones Sobre Su Invalidez Judicial Por Ineficacia</h5>
+                                <p>Deiby Alberto Sáenz Rodríguez</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
           </div>
         </div>
       </div>
