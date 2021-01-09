@@ -38,7 +38,7 @@ const Contact = (props) => {
       })
         .then(() => {
           alert("Tu mensaje se envió satisfactoriamente");
-          location.reload();
+          window.location.reload();
         })
         .catch((_) => {
           console.error(
