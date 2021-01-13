@@ -22,7 +22,7 @@ const About=(props)=> {
       </div>
       <div className="row">
          <div className="three columns">
-             <img className="profile-pic"  src={teamPicture} alt="Tim Baker Profile Pic" />
+             <img className="team-pic"  src={teamPicture} alt="Tim Baker Profile Pic" />
          </div>
          <div className="nine columns main-col">
              <h2>{titleAboutSection}</h2>

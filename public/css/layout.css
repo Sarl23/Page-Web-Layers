@@ -210,6 +210,10 @@ ul#nav li.current a { color: #f0bc00; }
    height: 120px;
    border-radius: 100%;
 }
+.team-pic {
+   width: 140px;
+   height: 140px;
+}
 #about .contact-details { width: 41.66667%; }
 #about .download {
    width: 58.33333%;
