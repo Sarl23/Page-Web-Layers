@@ -9,7 +9,7 @@ const Header = (props) => {
   const content = [
     {
       title: 'Cuente con una firma seria',
-      description: 'Capaz de resolver cualquier consulta en casos de Responsabilidad Médica, Derecho Disciplinario Para Fuerzas Militares, Policía e Inpec y Áreas Afines',
+      description: 'Capaz de resolver cualquier consulta en casos de Responsabilidad Médica, Derecho Disciplinario para las Fuerzas Militares, Policía, Inpec y áreas afines',
       image: 'https://raw.githubusercontent.com/Sarl23/csv-and-files/master/pageWebLawyers/carousel/carousel_1.jpg',
     },
     {
