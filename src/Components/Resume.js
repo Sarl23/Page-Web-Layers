@@ -25,8 +25,8 @@ const Resume = (props) => {
                             {educationDeibyData}
                             <div className="text-left">
                                 <ul>
-                                    <li>Universidad Santo Tomas</li>
-                                    <li>Magister en Derechos Humanos</li>
+                                    <li>Universidad Santo Tomás</li>
+                                    <li>Magíster en Derechos Humanos</li>
                                     <li>Doctor en Derecho Público</li>
                                     <li>Doctor en Ciencias Jurídicas</li>
                                     <li>Doctor en Ciencias de la Educación</li>
@@ -34,12 +34,12 @@ const Resume = (props) => {
                                     <li>Post Doctor en Derechos Humanos</li>
                                 </ul>
                                 <p>
-                                    Con 20 años de experiencia como servidor público, ejerciendo cargos propios de Dirección del programa de Doctorado en Derecho Público de la Universidad Santo Tomas,
-                                    Editor de la revista Científica Principia Iuris de la Universidad Santo Tomas,
+                                    Con 20 años de experiencia como servidor público, ejerciendo cargos propios de Dirección del programa de Doctorado en Derecho Público de la Universidad Santo Tomás,
+                                    Editor de la revista Científica Principia Iuris de la Universidad Santo Tomás,
                                     Docente en el programa de Maestría en Derechos Humanos Universidad Pedagógica y Tecnológica de Colombia
-                                    Docente en el programa de Maestría de Derecho Penal y Procesal Penal, Universidad Santo Tomas
-                                    Docente en el programa de Especialización en Psicología Jurídica y Forense, Universidad Santo Tomas
-                                    Docente asociado en Derecho Penal, Universidad Santo Tomas
+                                    Docente en el programa de Maestría de Derecho Penal y Procesal Penal, Universidad Santo Tomás
+                                    Docente en el programa de Especialización en Psicología Jurídica y Forense, Universidad Santo Tomás
+                                    Docente asociado en Derecho Penal, Universidad Santo Tomás
                                     Docente asociado en Derecho Penal, Universidad Juan de Castellanos
                                 </p>
                                 <ul className="align-center">
@@ -60,12 +60,12 @@ const Resume = (props) => {
                             {educationXiomaraData}
                             <div className="text-left">
                                 <ul>
-                                    <li>Universidad Santo Tomas</li>
-                                    <li>Especialista en Derecho Medico – Sanitario Universidad del Rosario</li>
-                                    <li>Candidata a Magister Universidad del Rosario</li>
+                                    <li>Universidad Santo Tomás</li>
+                                    <li>Especialista en Derecho Médico – Sanitario Universidad del Rosario</li>
+                                    <li>Candidata a Magíster Universidad del Rosario</li>
                                 </ul>
                                 <p>
-                                    Especialista en Responsabilidad Medico – Sanitaria, con gran experiencia en el
+                                    Especialista en Responsabilidad Médico – Sanitaria, con gran experiencia en el
                                     litigio, ejerciendo cargos en el sector público, asesora jurídica, cuenta con óptima
                                     idoneidad y capacidades en el área respectiva del ejercicio profesional, con amplia
                                     experiencia en ámbitos de responsabilidad médica; transparencia y responsabilidad
