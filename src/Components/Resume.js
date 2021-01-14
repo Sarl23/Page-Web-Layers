@@ -34,13 +34,14 @@ const Resume = (props) => {
                                     <li>Post Doctor en Derechos Humanos</li>
                                 </ul>
                                 <p>
-                                    Con 20 años de experiencia como servidor público, ejerciendo cargos propios de Dirección del programa de Doctorado en Derecho Público de la Universidad Santo Tomás,
-                                    Editor de la revista Científica Principia Iuris de la Universidad Santo Tomás,
-                                    Docente en el programa de Maestría en Derechos Humanos Universidad Pedagógica y Tecnológica de Colombia
-                                    Docente en el programa de Maestría de Derecho Penal y Procesal Penal, Universidad Santo Tomás
-                                    Docente en el programa de Especialización en Psicología Jurídica y Forense, Universidad Santo Tomás
-                                    Docente asociado en Derecho Penal, Universidad Santo Tomás
-                                    Docente asociado en Derecho Penal, Universidad Juan de Castellanos
+                                    Con 20 años de experiencia como servidor público, ejerciendo cargos propios como
+                                    director del programa de Doctorado en Derecho Público Universidad Santo Tomás,
+                                    editor revista científica Principia Iuris Universidad Santo Tomás, docente en el
+                                    programa de Maestría en Derechos Humanos Universidad Pedagógica y Tecnológica de
+                                    Colombia, docente en el programa de Maestría de Derecho Penal y Procesal Penal
+                                    Universidad Santo Tomás, docente en el programa de Especialización en Psicología
+                                    Jurídica y Forense Universidad Santo Tomás, Docente titular en Derecho Penal
+                                    Universidad Santo Tomás.
                                 </p>
                                 <ul className="align-center">
                                     <li>Investigador</li>
