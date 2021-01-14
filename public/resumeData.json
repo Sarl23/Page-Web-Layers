@@ -7,7 +7,7 @@
     "teamPicture":"team.jpg",
     "manPicture":"man.jpg",
     "womanPicture":"woman.jpg",
-    "bio":"SAENZ LEÓN ES UNA FIRMA DE ABOGADOS ESPECIALIZADOS EN LITIGIO, ASESORÍA Y CONSULTORÍA EN RESPONSABILIDAD MÉDICO – SANITARIA, DERECHO PENITENCIARIO, DERECHO DISCIPLINARIO, DERECHO CIVIL Y DERECHO LABORAL.",
+    "bio":"SAENZ LEÓN ES UNA FIRMA DE ABOGADOS ESPECIALIZADOS EN LITIGIO, ASESORÍA Y CONSULTORÍA EN RESPONSABILIDAD MÉDICO – SANITARIA, DERECHO PENITENCIARIO, DERECHO DISCIPLINARIO, DERECHO CIVIL, DERECHO LABORAL Y DERECHO PENAL.",
     "titleAboutSection":"Trabajamos para",
     "aboutLawyers":"Ofrecer una representación seria, honesta y de la mejor calidad. Nuestro compromiso y responsabilidad es diseñar la mejor estrategia jurídica para una solución pronta, definitiva y completa; dedicamos nuestro tiempo al estudio y preparación de todos nuestros casos. \nComo profesionales del derecho, el principal objetivo es ofrecer un servicio de gran calidad a los clientes, cumpliendo los parámetros de la ética profesional. Desempeñamos la abogacía con profesionalismo, brindando a cada cliente una asesoría clara, pertinente y fundamentada.\n",
     "contactmessage":"Aquí podrás escribir tu mensaje para ponerte en contacto con nosotros",
@@ -64,7 +64,7 @@
         "school":"Abogado",
         "degree":"Con 20 años de experiencia como servidor público, ejerciendo cargos propios de Dirección del programa de doctorado en Derecho Público en la Universidad Santo Tomas\nEditor de la revista Científica Principia Iuris de la Universidad Santo Tomas\nDocente en el programa de maestría de derechos humanos Universidad Pedagógica y Tecnológica de Colombia\n",
         "graduated":"Docente en el programa de maestría de Derecho Penal y Procesal Penal Universidad Santo Tomas\nDocente en el programa de especialización en Psicología Jurídica y Forense Universidad Santo Tomas",
-        "description":"Docente asociado en derecho penal universidad Santo Tomas\nDocente asociado en derecho penal Universidad Juan de Castellanos\nInvestigador \nEscritor\nConferencista\n"
+        "description":"Investigador \nEscritor\nConferencista\n"
       }
     ],
     "educationXiomara":[
@@ -151,7 +151,7 @@
   "testimonials":{
     "testimonials":[
       {
-        "text":"\nNuestra firma cuenta con profesionales altamente calificados, quienes se vienen desempeñando como docentes universitarios, litigantes y vienen de ejercer funciones relacionadas en el sector público.\n",
+        "text":"\nNuestra firma cuenta con profesionales altamente calificados, quienes se vienen desempeñando como docentes universitarios, litigantes, asesores, ejerciendo funciones relacionadas en el sector público.\n",
         "user":"Kareem Abdul Jabbar"
       },
       {
