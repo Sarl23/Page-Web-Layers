@@ -100,6 +100,7 @@ const Contact = (props) => {
             <div className="google-map-code">
               <div className="google-map-code">
                 <iframe
+                    title="Location"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.2306788181313!2d-73.36591398568046!3d5.532761695988288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a7c2cb9e587f5%3A0x687bbd6575ad48a5!2sUniversidad%20Santo%20Tom%C3%A1s.%20Centro%20Hist%C3%B3rico!5e0!3m2!1ses!2sco!4v1610573567076!5m2!1ses!2sco"
                     style ={{ width:"400" ,height:"300" ,frameBorder:"0" ,style:"border:0" ,allowFullScreen:"" ,ariaHidden:"false"}}
                     tabIndex="0"/>
