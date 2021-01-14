@@ -117,16 +117,29 @@ button:hover {
     transform: rotate(180deg) translateY(calc(50% + 0px));
 }
 
-.previousButton, .nextButton {
+.nextButton {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     z-index: 10;
-    background-image: url('/public/images/white_arrow_right.jpg');
+    background-image: url('https://raw.githubusercontent.com/Sarl23/csv-and-files/master/pageWebLawyers/carousel/right-arrow.png');
     width: 32px;
     height: 32px;
     text-indent: -9999px;
     cursor: pointer;
+    background-repeat:  no-repeat;
+}
+.previousButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background-image: url('https://raw.githubusercontent.com/Sarl23/csv-and-files/master/pageWebLawyers/carousel/left-arrow.png');
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-repeat:  no-repeat;
 }
 
 .previousButton:hover {
